@@ -1,6 +1,6 @@
 {
-  "name": "typescript-todo-or-die-plugin",
-  "version": "0.6.0",
+  "name": "todo-or-die",
+  "version": "1.1.0",
   "description": "",
   "main": "lib/index.js",
   "bin": {
@@ -9,23 +9,6 @@
   "files": [
     "lib"
   ],
-  "contributors": [
-    {
-      "name": "Dylan Carver",
-      "email": "dylc2770@gmail.com",
-      "url": "http://dylancarver.dev/"
-    },
-    {
-      "name": "Niek Nijland",
-      "email": "ngnijland@gmail.com",
-      "url": "http://nieknijland.nl/"
-    },
-    {
-      "name": "Bogdan Nenu",
-      "email": "bogdan.nenu@gmail.com",
-      "url": "http://bogdannenu.com/"
-    }
-  ],
   "scripts": {
     "compile": "tsc -p .",
     "watch:compile": "tsc --watch -p .",
@@ -33,22 +16,12 @@
     "test": "jest .",
     "test:watch": "jest . --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ngnijland/typescript-todo-or-die-plugin.git"
-  },
   "keywords": [
     "typescript",
     "plugin",
     "todo",
     "comments"
   ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ngnijland/typescript-todo-or-die-plugin/issues"
-  },
-  "homepage": "https://github.com/ngnijland/typescript-todo-or-die-plugin#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^8.2.0",

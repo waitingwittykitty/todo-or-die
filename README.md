@@ -1,4 +1,4 @@
-# typescript-todo-or-die-plugin
+# Todo Or Die
 
 `TODO`'s that speak up for themselves via the TypeScript Language Server.
 
@@ -127,11 +127,3 @@ By default `TODO` & `FIXME` are valid keywords to use for your todo comments. Ad
   }
 ]
 ```
-
-## Contributors
-
-<a href="https://github.com/ngnijland/typescript-todo-or-die-plugin/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ngnijland/typescript-todo-or-die-plugin" />
-</a>
-
-Made with [contributors-img](https://contrib.rocks).
